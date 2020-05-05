@@ -1,0 +1,29 @@
+@import '../Vars.scss';
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.main__title {
+    color: white;
+    font-size: 25px;
+}
+
+.input {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    font-family: $theme-font;
+    font-size: 16px;
+    height: 40px;
+    padding: 0 20px;
+    width: 70%;
+    outline: none;
+}
+::placeholder {
+    color: white;
+}
